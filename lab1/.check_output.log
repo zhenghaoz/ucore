@@ -1,0 +1,73 @@
+(THU.CST) os is loading ...
+
+Special kernel symbols:
+  entry  0x00100000 (phys)
+  etext  0x00104739 (phys)
+  edata  0x001059d8 (phys)
+  end    0x00106c70 (phys)
+Kernel executable memory footprint: 28KB
+ebp:0x00007ad8 eip:0x00100de6 args:0xffffffff 0x0000000a 0x0000001c 0x00000000 
+    <unknow>: -- 0x00100de5 --
+ebp:0x00007af8 eip:0x0010110d args:0x00000000 0x00000000 0x00000000 0x00007b38 
+    <unknow>: -- 0x0010110c --
+ebp:0x00007b38 eip:0x00100161 args:0x00000000 0x00007b60 0xffff0000 0x00007b5c 
+    <unknow>: -- 0x00100160 --
+ebp:0x00007b68 eip:0x001001a3 args:0x00000000 0xffff0000 0x00000029 0xffff0000 
+    <unknow>: -- 0x001001a2 --
+ebp:0x00007b88 eip:0x001001da args:0x00000000 0x00100000 0xffff0000 0x00010074 
+    <unknow>: -- 0x001001d9 --
+ebp:0x00007ba8 eip:0x001000c1 args:0x00104758 0x0010473c 0x00001298 0x00000000 
+    <unknow>: -- 0x001000c0 --
+ebp:0x00007bd8 eip:0x00100060 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0x0010005f --
+ebp:0x00000000 eip:0x00007cf2 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0x00007cf1 --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xf000e2c3 0xf000ff53 0xf000ff53 0xf000ff53 
+    <unknow>: -- 0xffffffff --
+++ setup timer interrupts
+0: @ring 0
+0:  cs = 8
+0:  ds = 10
+0:  es = 10
+0:  ss = 10
++++ switch to  user  mode +++
+1: @ring 3
+1:  cs = 1b
+1:  ds = 23
+1:  es = 23
+1:  ss = 23
++++ switch to kernel mode +++
+2: @ring 0
+2:  cs = 8
+2:  ds = 10
+2:  es = 10
+2:  ss = 10
+100 ticks
+End of Test.
+kernel panic at kern/trap/trap.c:18:
+    EOT: kernel seems ok.
+Welcome to the kernel debug monitor!!
+Type 'help' for a list of commands.
+K> 

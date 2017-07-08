@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "memlayout.h": "c",
+        "skew_heap.h": "c",
+        "list.h": "c",
+        "assert.h": "c",
+        "ulib.h": "c",
+        "pmm.h": "c"
+    }
+}
